@@ -1,0 +1,57 @@
+body {
+  background-color: #303030;
+}
+.main_header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  /* background-color: aqua; */
+  /* justify-content: center; */
+  /* font-size: 28px; */
+  /* padding: 0;
+    margin: 0; */
+  /* box-sizing: border-box;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: dashed; */
+}
+.name {
+  display: flex;
+  position: relative;
+  margin-left: 5vw;
+  /* background-color  : #250821; */
+}
+.navbar {
+  display: flex;
+  position: relative;
+  left: 52vw;
+  /* background-color: #8f1b1b; */
+  /* right: 0 ; */
+}
+.navbar li {
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  margin: 1vw;
+  color: pink;
+  /* background-color: #8f1b1b; */
+}
+:root {
+  --text-color: #8f1b1b;
+  --hover-color: #6112ff;
+  --bg-color: #250821;
+  --secon-bg-color: #675476;
+  --big-font: 2.5rem;
+  --norma-font: 2rem;
+  --neon-box-shadow: 0 0 0.5rem #12f7ff;
+  --h2-font: 3rem;
+  --font-neon-text-shadow: 0 0 10px rgba(18, 247, 255, 0.3) 0 0 10px
+    rgba(18, 247, 255, 0.3) 0 0 20px rgba(18, 247, 255, 0.3) 0 0 50px
+    rgba(18, 247, 255, 0.3) 0 0 80px rgba(18, 247, 255, 0.3) 0 0 100px
+    rgba(18, 247, 255, 0.3) 0 0 150px rgba(18, 247, 255, 0.3) 0 0 170px
+    rgba(18, 247, 255, 0.3);
+}
